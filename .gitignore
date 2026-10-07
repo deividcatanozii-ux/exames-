@@ -1,0 +1,22 @@
+# Configuracao privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Dados operacionais: nao subir para o GitHub
+*.xlsx
+*.xls
+*.csv
+*.pdf
+# Arquivos gerados no computador
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.vercel/
+artifacts/
+*.py[cod]
+*.log
+*.exe
+*.zip
